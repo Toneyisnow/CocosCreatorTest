@@ -53,8 +53,9 @@ cc.Class({
 
     callback: function callback(button) {
 
-        button.string = "Hello";
-        cc.director.loadScene("MainGameScene");
+        // button.string = "Hello";
+        // cc.director.loadScene("MainGameScene");
+        cc.director.loadScene("SelectCategoryScene");
     }
 
 });

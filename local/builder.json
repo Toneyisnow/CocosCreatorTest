@@ -3,15 +3,21 @@
   "apiLevel": "",
   "appABIs": [],
   "buildPath": "./build",
-  "debug": false,
-  "embedWebDebugger": false,
+  "debug": true,
+  "embedWebDebugger": true,
   "keystoreAlias": "",
   "keystoreAliasPassword": "",
   "keystorePassword": "",
   "keystorePath": "",
+<<<<<<< HEAD
   "platform": "ios",
   "previewHeight": "720",
   "previewWidth": "1280",
+=======
+  "platform": "web-mobile",
+  "previewHeight": 896,
+  "previewWidth": 414,
+>>>>>>> 95344ed3ebabecea3bb158972242419443bcf8b2
   "sourceMaps": false,
   "template": "link",
   "useDebugKeystore": true,

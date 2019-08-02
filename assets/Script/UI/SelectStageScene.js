@@ -13,10 +13,18 @@ cc.Class({
 
     properties: {
         
-        btn: {
+        titleNode: {
             default: null,
-            type: cc.Button
+            type: cc.Node
         },
+        
+        playerNode: {
+            default: null,
+            type: cc.Node
+        },
+        
+        titleTransitionDuration: 1.0,
+        fadeInDuration: 2.0,
         
         // foo: {
         //     // ATTRIBUTES:
@@ -37,21 +45,23 @@ cc.Class({
 
     // LIFE-CYCLE CALLBACKS:
 
-    onLoad () {
-        this.btn.node.on("click", this.callback, this);
-    },
+    // onLoad () {},
 
     start () {
 
     },
 
-    // update (dt) {},
-    
-    callback: function(button) {
+    onLoad () {
         
-        // button.string = "Hello";
-        // cc.director.loadScene("MainGameScene");
-        cc.director.loadScene("SelectCategoryScene");
+        // this.fadeInPlayer();
+        
+        var targetedAction = cc.targetedAction(this.titleNode, cc.moveTo(this.titleTransitionDuration, 0, 350));
+        var targetedAction2 = cc.targetedAction(this.playerNode, cc.fadeIn(this.fadeInDuration));
+        var seq = cc.sequence(targetedAction, targetedAction2);
+        
+        this.node.runAction(seq);
     },
-    
+
+
+    // update (dt) {},
 });

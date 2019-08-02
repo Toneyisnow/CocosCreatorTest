@@ -1,15 +1,21 @@
 {
   "version": "1.1.1",
   "windows": {
-    "worker": {},
     "main": {
       "main": true,
       "url": "app://editor/index.html",
       "windowType": "dockable",
+<<<<<<< HEAD
       "x": 0,
       "y": 23,
       "width": 1440,
       "height": 812,
+=======
+      "x": 16,
+      "y": 86,
+      "width": 1858,
+      "height": 1071,
+>>>>>>> 95344ed3ebabecea3bb158972242419443bcf8b2
       "layout": {
         "children": [
           {
@@ -19,15 +25,22 @@
                 "children": [
                   "hierarchy"
                 ],
+<<<<<<< HEAD
                 "height": 364.59375,
                 "type": "panel",
                 "width": 232.5
+=======
+                "height": 475,
+                "type": "panel",
+                "width": 295
+>>>>>>> 95344ed3ebabecea3bb158972242419443bcf8b2
               },
               {
                 "active": 0,
                 "children": [
                   "assets"
                 ],
+<<<<<<< HEAD
                 "height": 363.390625,
                 "type": "panel",
                 "width": 232.5
@@ -36,6 +49,16 @@
             "height": 730,
             "type": "dock-v",
             "width": 232.5
+=======
+                "height": 475,
+                "type": "panel",
+                "width": 295
+              }
+            ],
+            "height": 952,
+            "type": "dock-v",
+            "width": 295
+>>>>>>> 95344ed3ebabecea3bb158972242419443bcf8b2
           },
           {
             "children": [
@@ -46,15 +69,22 @@
                     "children": [
                       "scene"
                     ],
+<<<<<<< HEAD
                     "height": 363.390625,
                     "type": "panel",
                     "width": 554.078125
+=======
+                    "height": 680,
+                    "type": "panel",
+                    "width": 714.984375
+>>>>>>> 95344ed3ebabecea3bb158972242419443bcf8b2
                   },
                   {
                     "active": 0,
                     "children": [
                       "node-library"
                     ],
+<<<<<<< HEAD
                     "height": 363.390625,
                     "type": "panel",
                     "width": 300.96875
@@ -63,6 +93,16 @@
                 "height": 363.390625,
                 "type": "dock-h",
                 "width": 857.046875
+=======
+                    "height": 680,
+                    "type": "panel",
+                    "width": 386
+                  }
+                ],
+                "height": 680,
+                "type": "dock-h",
+                "width": 1102.984375
+>>>>>>> 95344ed3ebabecea3bb158972242419443bcf8b2
               },
               {
                 "active": 0,
@@ -71,6 +111,7 @@
                   "timeline",
                   "game-window"
                 ],
+<<<<<<< HEAD
                 "height": 364.59375,
                 "type": "panel",
                 "width": 857.046875
@@ -79,6 +120,16 @@
             "height": 730,
             "type": "dock-v",
             "width": 857.046875
+=======
+                "height": 270,
+                "type": "panel",
+                "width": 1102.984375
+              }
+            ],
+            "height": 952,
+            "type": "dock-v",
+            "width": 1102.984375
+>>>>>>> 95344ed3ebabecea3bb158972242419443bcf8b2
           },
           {
             "active": 0,
@@ -86,9 +137,15 @@
               "inspector",
               "cocos-services"
             ],
+<<<<<<< HEAD
             "height": 730,
             "type": "panel",
             "width": 346.46875
+=======
+            "height": 952,
+            "type": "panel",
+            "width": 440
+>>>>>>> 95344ed3ebabecea3bb158972242419443bcf8b2
           }
         ],
         "type": "dock-h"
@@ -115,10 +172,21 @@
       "height": 565
     },
     "builder": {
+<<<<<<< HEAD
       "x": 770,
       "y": 74,
+=======
+      "x": 609,
+      "y": 137,
+>>>>>>> 95344ed3ebabecea3bb158972242419443bcf8b2
       "width": 670,
       "height": 739
+    },
+    "sprite-editor": {
+      "x": 758,
+      "y": 409,
+      "width": 516,
+      "height": 539
     }
   }
 }
