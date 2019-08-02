@@ -17,7 +17,7 @@ cc.Class({
             default: null,
             type: cc.Button
         },
-        
+   
         // foo: {
         //     // ATTRIBUTES:
         //     default: null,        // The default value will be used only when the component attaching
@@ -37,6 +37,8 @@ cc.Class({
 
     // LIFE-CYCLE CALLBACKS:
 
+    // onLoad () {},
+
     onLoad () {
         this.btn.node.on("click", this.callback, this);
     },
@@ -50,8 +52,9 @@ cc.Class({
     callback: function(button) {
         
         // button.string = "Hello";
-        // cc.director.loadScene("MainGameScene");
-        cc.director.loadScene("SelectCategoryScene");
+        cc.director.loadScene("SelectStageScene");
     },
     
+
+    // update (dt) {},
 });

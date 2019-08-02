@@ -18,6 +18,9 @@
       },
       {
         "__id__": 6
+      },
+      {
+        "__id__": 8
       }
     ],
     "_active": true,
@@ -89,8 +92,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 640,
-      "height": 960
+      "width": 414,
+      "height": 896
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -99,8 +102,8 @@
     },
     "_position": {
       "__type__": "cc.Vec3",
-      "x": 320,
-      "y": 480,
+      "x": 207,
+      "y": 448,
       "z": 0
     },
     "_scale": {
@@ -224,8 +227,8 @@
     "_enabled": true,
     "_designResolution": {
       "__type__": "cc.Size",
-      "width": 640,
-      "height": 960
+      "width": 414,
+      "height": 896
     },
     "_fitWidth": false,
     "_fitHeight": true,
@@ -257,18 +260,18 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 443.58,
+      "width": 316.85,
       "height": 113.4
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
+      "x": 0.6288190832589939,
+      "y": 0.13188738698942787
     },
     "_position": {
       "__type__": "cc.Vec3",
-      "x": 342.701,
-      "y": 437.162,
+      "x": 255,
+      "y": 430,
       "z": 0
     },
     "_scale": {
@@ -307,7 +310,7 @@
     "_useOriginalSize": false,
     "_string": "Good Morning",
     "_N$string": "Good Morning",
-    "_fontSize": 70,
+    "_fontSize": 50,
     "_lineHeight": 90,
     "_enableWrapText": true,
     "_N$file": null,
@@ -320,5 +323,129 @@
     "_N$overflow": 0,
     "_N$cacheMode": 0,
     "_id": "82XHzyH+ZFIp1We1n5ouwK"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "testSprite",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 1
+    },
+    "_children": [],
+    "_active": true,
+    "_level": 1,
+    "_components": [
+      {
+        "__id__": 9
+      },
+      {
+        "__id__": 10
+      }
+    ],
+    "_prefab": null,
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 199,
+      "height": 221
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.7310967754624393,
+      "y": 1.5316033684285095
+    },
+    "_position": {
+      "__type__": "cc.Vec3",
+      "x": 209,
+      "y": 516,
+      "z": 0
+    },
+    "_scale": {
+      "__type__": "cc.Vec3",
+      "x": 1.022,
+      "y": 1.022,
+      "z": 1.022
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "groupIndex": 0,
+    "_rotationX": 0,
+    "_rotationY": 0,
+    "_id": "40Cw68M0RL+5hMjjt4/AfO"
+  },
+  {
+    "__type__": "cc.Sprite",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 8
+    },
+    "_enabled": true,
+    "_materials": [
+      {
+        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+      }
+    ],
+    "_srcBlendFactor": 770,
+    "_dstBlendFactor": 771,
+    "_spriteFrame": {
+      "__uuid__": "92285638-b019-4b1d-831c-93c3f30ca3ac"
+    },
+    "_type": 0,
+    "_sizeMode": 0,
+    "_fillType": 0,
+    "_fillCenter": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "_fillStart": 0,
+    "_fillRange": 0,
+    "_isTrimmedMode": true,
+    "_atlas": {
+      "__uuid__": "bef1e0d1-e294-4df8-af2c-84095c29e9ff"
+    },
+    "_id": "3ctGIbzmRC1b0IJXs9oa6a"
+  },
+  {
+    "__type__": "cc.Widget",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 8
+    },
+    "_enabled": true,
+    "alignMode": 1,
+    "_target": null,
+    "_alignFlags": 9,
+    "_left": 60.31100000000001,
+    "_right": 0,
+    "_top": 500.069,
+    "_bottom": 0,
+    "_verticalCenter": 0,
+    "_horizontalCenter": 0,
+    "_isAbsLeft": true,
+    "_isAbsRight": true,
+    "_isAbsTop": true,
+    "_isAbsBottom": true,
+    "_isAbsHorizontalCenter": true,
+    "_isAbsVerticalCenter": true,
+    "_originalWidth": 0,
+    "_originalHeight": 0,
+    "_id": "50fqfKWbBIDL7GrPQ+l2E3"
   }
 ]
